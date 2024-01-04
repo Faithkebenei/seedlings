@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 span {
+  color: #6e9257;
+}
+
+.navlink ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navlink ul li {
+  margin: 0 30px;
+}
+
+.navlink ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333333;
+}
+
+.navlink ul li a:hover {
+  color: #6e9257;
+}
