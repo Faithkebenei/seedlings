@@ -122,13 +122,13 @@
 .imgCount {
   display: flex;
   position: absolute;
-  bottom: -10px;
+  bottom: -15px;
   right: 50px;
-  //transform: translateX(-150px);
 }
 
 .imgCount p {
   margin: 0 10px;
+  padding-bottom: 5px;
 }
 
 .bottom {
