@@ -3,6 +3,12 @@ import text from "../../utils/texts";
 import styles from "./Hero.module.scss";
 import { FaArrowRight } from "react-icons/fa";
 
+import { five } from "../../utils/images/5.png";
+import { eleven } from "../../utils/images/11.png";
+import { six } from "../../utils/images/6.png";
+import { ten } from "../../utils/images/10.png";
+import { twelve } from "../../utils/images/12.png";
+
 const Hero = () => {
   return (
     <div className={styles.hero}>
