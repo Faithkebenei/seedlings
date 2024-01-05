@@ -104,3 +104,29 @@
   top: 0;
   margin-top: 30px;
 }
+
+.imgContainer {
+  width: 260px;
+  height: 75%;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  margin-top: 30px;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.imgCount {
+  display: flex;
+  position: absolute;
+  bottom: -10px;
+  right: 50px;
+  //transform: translateX(-150px);
+}
+
+.imgCount p {
+  margin: 0 10px;
+}

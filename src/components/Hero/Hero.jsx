@@ -3,11 +3,11 @@ import text from "../../utils/texts";
 import styles from "./Hero.module.scss";
 import { FaArrowRight } from "react-icons/fa";
 
-import { five } from "../../utils/images/5.png";
-import { eleven } from "../../utils/images/11.png";
-import { six } from "../../utils/images/6.png";
-import { ten } from "../../utils/images/10.png";
-import { twelve } from "../../utils/images/12.png";
+import five from "../../utils/images/5.png";
+import eleven from "../../utils/images/11.png";
+import six from "../../utils/images/6.png";
+import four from "../../utils/images/4.png";
+import twelve from "../../utils/images/12.png";
 
 const Hero = () => {
   return (
@@ -26,13 +26,15 @@ const Hero = () => {
         <div className={styles.right}>
           <div className={styles.imageContainer}>
             <div className={styles.blockColor}></div>
-            <div className={styles.imgContainer}></div>
+            <div className={styles.imgContainer}>
+              <img src={five} alt="Product" />
+            </div>
             <div className={styles.imgCount}>
-              {/* <p>01</p>
+              <p>01</p>
               <p>02</p>
               <p>03</p>
               <p>04</p>
-              <p>05</p> */}
+              <p>05</p>
             </div>
           </div>
           <div className={styles.socials}>
@@ -57,11 +59,6 @@ const Hero = () => {
             <div className={styles.socialCont}>
               <div>{text.hero.scrollDown}</div>
             </div>
-            {/* <p className={styles.rotate}>{text.hero.scrollDown}</p>
-            {/* <hr className={styles.hr} /> */}
-            {/* <p className={styles.rotate2}>FACEBOOK</p>
-            <p>X</p>
-            <p>INSTAGRAM</p> */}
           </div>
           <div></div>
         </div>
