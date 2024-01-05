@@ -130,3 +130,16 @@
 .imgCount p {
   margin: 0 10px;
 }
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.infoContainers {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 200px;
+}

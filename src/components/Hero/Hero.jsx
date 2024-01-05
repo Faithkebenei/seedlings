@@ -2,6 +2,9 @@ import React from "react";
 import text from "../../utils/texts";
 import styles from "./Hero.module.scss";
 import { FaArrowRight } from "react-icons/fa";
+import { FaEnvelopesBulk, FaPhoneVolume, FaMoneyBills } from "react-icons/fa6";
+
+import HeroInfo from "../HeroInfo/HeroInfo";
 
 import five from "../../utils/images/5.png";
 import eleven from "../../utils/images/11.png";
@@ -63,7 +66,28 @@ const Hero = () => {
           <div></div>
         </div>
       </div>
-      <div className={styles.bottom}></div>
+      <div className={styles.bottom}>
+        <div className={styles.infoContainers}>
+          <div>
+            <HeroInfo
+              icon={<FaEnvelopesBulk size="2rem" color="#6E9257" />}
+              text="Fast Delivery"
+            />
+          </div>
+          <div>
+            <HeroInfo
+              icon={<FaPhoneVolume size="1.5rem" color="#6E9257" />}
+              text="24/7 Support"
+            />
+          </div>
+          <div>
+            <HeroInfo
+              icon={<FaMoneyBills size="2rem" color="#6E9257" />}
+              text="Affordable Prices"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
