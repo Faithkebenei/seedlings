@@ -16,6 +16,32 @@ const Hero = () => {
   const [activeImgCount, setActiveImgCount] = useState(1);
   const [activePhoto, setActivePhoto] = useState(five);
 
+  // const changeImage = () => {
+  //   console.log(activeImgCount);
+  // };
+
+  setTimeout(() => {
+    if (activeImgCount === 5) {
+      setActiveImgCount(1);
+      setActivePhoto(five);
+    } else {
+      setActiveImgCount(activeImgCount + 1);
+      //changeImage();
+
+      if (activeImgCount === 1) {
+        setActivePhoto(eleven);
+      } else if (activeImgCount === 2) {
+        setActivePhoto(six);
+      } else if (activeImgCount === 3) {
+        setActivePhoto(four);
+      } else if (activeImgCount === 4) {
+        setActivePhoto(twelve);
+      } else if (activeImgCount === 5) {
+        setActivePhoto(five);
+      }
+    }
+  }, 3000);
+
   return (
     <div className={styles.hero}>
       <div className={styles.top}>
