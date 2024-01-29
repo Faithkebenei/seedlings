@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px 100px;
 }
 
 .hero .top .left {
@@ -26,6 +26,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+}
+
+.left button:hover {
+  letter-spacing: 4px;
+  transition: 0.5s;
 }
 
 .left button .icon {
@@ -135,7 +141,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin: 80px 100px 0;
 }
 
 .infoContainers {

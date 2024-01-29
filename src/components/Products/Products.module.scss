@@ -1,0 +1,41 @@
+.products {
+  margin: 60px 100px;
+}
+
+.products h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.hr {
+  width: 70px;
+  height: 4px;
+  background-color: #6e9257;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.productContainer {
+  width: 25%;
+}
+
+.productImage {
+  width: 86%;
+  height: 250px;
+  background-color: #ecf2e6;
+  margin: 30px 0;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productImage img {
+  height: 80%;
+}
