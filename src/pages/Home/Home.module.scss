@@ -1,3 +1,23 @@
+/* Targeting the vertical scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+/* Styling the track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+/* Styling the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #6e9257; /* Color of the thumb */
+}
+
+/* Hover effect on the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #6e9257; /* Color of the thumb on hover */
+}
+
 .home {
   // margin: 20px 100px;
 }
