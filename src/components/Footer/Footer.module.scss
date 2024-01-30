@@ -1,0 +1,94 @@
+.footer {
+  margin: 60px 100px 20px;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.socialIcon {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #ecf2e6;
+  color: #6e9257;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social p {
+  letter-spacing: 1.5px;
+  font-size: 17px;
+}
+
+.social p:hover {
+  color: #6e9257;
+}
+
+.menus ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.menus ul li {
+  margin-top: 20px;
+}
+
+.menus ul li a {
+  text-decoration: none;
+  color: #333333;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+}
+
+.menus ul li a:hover {
+  color: #6e9257;
+}
+
+.openingHours {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.days {
+  margin-right: 30px;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+}
+
+.time {
+  letter-spacing: 1.5px;
+  font-size: 17px;
+}
+
+.policyContainer {
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.policyContainer p {
+  font-size: 17px;
+}
+
+.policyContainer p a {
+  cursor: pointer;
+  color: #6e9257;
+  text-decoration: none;
+}
