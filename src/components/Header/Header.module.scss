@@ -22,10 +22,25 @@
 
 .navlink ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #333333;
 }
 
 .navlink ul li a:hover {
   color: #6e9257;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    margin: 0 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
 }

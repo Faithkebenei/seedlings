@@ -10,7 +10,7 @@
 }
 
 .left p {
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 170%;
   font-weight: bold;
   width: 90%;
@@ -93,6 +93,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  position: absolute;
+  left: 30%;
 }
 
 .imageContainer {
@@ -103,7 +106,7 @@
 
 .blockColor {
   background-color: #ecf2e6;
-  width: 300px;
+  width: 70%;
   height: 85%;
   position: absolute;
   right: 0;
@@ -112,11 +115,11 @@
 }
 
 .imgContainer {
-  width: 260px;
+  width: 50%;
   height: 75%;
   position: absolute;
   top: 20px;
-  left: 60px;
+  left: 5%;
   margin-top: 30px;
 }
 
@@ -140,12 +143,57 @@
 .bottom {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 80px 100px 0;
 }
 
-.infoContainers {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  column-gap: 200px;
+.heroInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.heroInfo p {
+  font-size: 1rem;
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero .top {
+    margin: 20px 80px;
+  }
+
+  .bottom {
+    margin: 80px 80px 0;
+  }
+
+  .infoContainers {
+    column-gap: 78px;
+  }
+
+  .socialCont {
+    width: 100px;
+  }
+
+  .imgContainer {
+    width: 70%;
+    left: 0%;
+  }
+  .left p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
 }
